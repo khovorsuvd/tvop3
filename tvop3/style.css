@@ -1,0 +1,398 @@
+@font-face {
+  font-family: "Lexend";
+
+
+  src: url('./Fonts/Lexend/Lexend-VariableFont_wght.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: "Futura PT";
+
+
+  src: url('./Fonts/FuturaPT-Light.ttf') format('truetype');
+
+}
+
+
+body {
+  overflow: hidden;
+  background-color: #110A1D;
+  color: rgb(255, 255, 255);
+  font-family: 'Lexend', Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: inherit;
+  overflow: hidden;
+  
+}
+
+.container {
+  max-width: 97vw;
+  overflow: hidden;
+}
+
+.header-border {
+  border-radius: 64px;
+
+}
+
+.drop-daun-menu {
+  background-color: #110A1D;
+  width: 95vw;
+
+
+
+}
+
+.header-menu-border {
+  border: 2px solid #478BF9;
+  background-color: hsl(262, 49%, 8%);
+  max-height: 92px;
+}
+
+@media (min-width: 1200px) {
+  .header-menu-border {
+    border: 4px solid #478BF9;
+  }
+}
+
+.border-button {
+  border-radius: 24px;
+  border: 2px solid #9DADF2;
+}
+
+.menu-link {
+  font-size: 18px;
+}
+
+.menu-link:nth-child(1) {
+  margin: 30px 0;
+}
+
+
+.mobail-menu-item {
+  padding: 13px 20px;
+  border-radius: 28px;
+}
+
+.mobail-menu-item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+
+
+.button-sign-in {
+  background-color: #478BF9;
+  border-radius: 24px;
+}
+
+.authentication-desctop {
+  padding: 14px;
+
+}
+
+.bc-botton {
+  background-color: #1E1231;
+}
+
+.bord-title {
+
+  color: #478BF9;
+}
+
+.bord-title:first-line {
+  color: #FFF;
+}
+
+.second-title {
+
+  color: rgba(255, 255, 255, 0.60);
+}
+
+@media (min-width: 300px) {
+  .bord-title {
+    font-size: 46px;
+  }
+
+  .second-title {
+    font-size: 20px;
+
+  }
+}
+
+@media (min-width: 1400px) {
+  .bord-title {
+    font-size: 6rem;
+  }
+
+  .second-title {
+    font-size: 32px;
+
+  }
+}
+
+.button-bord {
+  border-radius: 48px;
+  background: #478BF9;
+  padding: 15px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  max-width: 393px;
+}
+
+
+.blog {
+  border-radius: 50px;
+  border: 2px solid #478BF9;
+  background: rgba(255, 255, 255, 0.12);
+
+min-height: 250px;
+ height: 30vh;
+  
+ 
+  max-height: 421px;
+  overflow: scroll;
+  backdrop-filter: blur(10px);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  display: block;
+
+
+
+}
+
+::-webkit-scrollbar-thumb {
+  display: block;
+  background: #478BF9;
+  border-radius: 4px;
+  height: 40%;
+
+}
+
+::-webkit-scrollbar-track {
+  display: block;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+@media (min-width: 800px) {
+  ::-webkit-scrollbar-track {
+
+    padding-top: 16%;
+    padding-bottom: 16%;
+  }
+
+}
+
+
+
+ 
+
+ 
+::-webkit-scrollbar-corner {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+
+
+  }
+}
+
+.blog-data {
+  font-family: 'Futura PT', 'Lexend', ;
+  font-feature-settings: 'liga' off;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 16px;
+  margin: 0;
+}
+
+.message {
+  
+  border-radius: 40px;
+  margin: 10px;
+  background: #1E1231;
+  padding: 15px 35px;
+}
+
+.message:first-child {
+
+  background: #478BF9;
+
+}
+
+@media (min-width: 1400px) {
+  .message {
+    border-radius: 150px;
+    padding: 16px 50px;
+margin: 0;
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+  }
+
+  .blog {
+    border-radius: 100px;
+    border: 3px solid #478BF9;
+    background: rgba(255, 255, 255, 0.12);
+   padding: 24px;
+   max-width: 531px;
+   height: 45vh;
+    backdrop-filter: blur(10px);
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .button-bord {
+    padding: 20px 72px;
+    font-size: 24px;
+  }
+}
+
+
+
+
+
+footer {
+  border-radius: 50px 50px 0px 0px;
+  border-top: 2px solid #478BF9;
+  border-right: 2px solid #478BF9;
+  border-left: 2px solid #478BF9;
+  background: #1E1231;
+  padding: 20px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+
+
+.gradient {
+  position: absolute;
+  z-index: -2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, #110A1D 16%, rgba(17, 10, 29, .4) 74%, #110A1D 90%);
+}
+
+.casino {
+  display: flex;
+  flex-direction: column;
+
+  animation: moveImages 10s linear infinite;
+  animation-direction: alternate;
+
+}
+
+
+.bg-desctop-spot {
+
+  
+  z-index: -1;
+  pointer-events: none;
+  position: absolute;
+  left: -10%;
+  top: -13%;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 680px) {
+  .bg-desctop-spot {
+    width: 55%;
+  }
+}
+
+
+.casino>svg {
+  margin-bottom: 24px;
+}
+
+.casino:nth-child(2) {
+  animation-direction: alternate-reverse;
+}
+
+@keyframes moveImages {
+  0% {
+    transform: translateY(20);
+  }
+
+  100% {
+    transform: translateY(-15vh);
+  }
+
+}
+
+.casino-anim {
+  justify-self: center;
+  z-index: -3;
+  align-self: center;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.radio-spot {
+  position: absolute;
+
+
+  height: 20vh;
+  top: 60vh;
+  z-index: -4;
+}
+
+.blog-h {
+  margin-bottom: 18px;
+  
+}
+
+.banner-text {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.casino-desctop{
+  white-space: nowrap;
+  position: relative;
+  z-index: -5;
+  overflow: hidden;
+  
+  animation: moveImages-desctope 10s linear infinite;
+  animation-direction: alternate;}
+
+  @keyframes moveImages-desctope {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  
+  }
+
+  .casino-desctop:nth-child(2) {
+    animation-direction: alternate-reverse;
+  }
+  .social-midia:hover path {
+    opacity: 0.7;
+background:  linear-gradient(256deg, #478BF9 0%, #9DADF2 100%);
+/* Цвет при наведении, замените на нужный вам цвет */
+}
